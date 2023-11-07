@@ -13,6 +13,7 @@ variables:
     BCRYPT_SALT: "10"
     COMPOSE_PROJECT_NAME: "amp_${resourceId}"
     PORT: "3000"
+    OPENAI_API_KEY: "[open-ai-key]"
     DB_URL: "postgres://admin:admin@localhost:5432/my-db"
     DB_USER: "admin"
     DB_PASSWORD: "admin"
